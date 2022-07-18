@@ -8,14 +8,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- BootStrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+    <script src="https://kit.fontawesome.com/638298b2c7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css"></head>
 <body>
+
+<section id="navbar">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AvdanOS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>   Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-wand-magic-sparkles"></i>   Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-puzzle-piece"></i>   Demo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+
 
 <section id="hero-section">
     <h1>Your PC, even better</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquid?</p>
-    <button class="btn btn-primary btn-lg blue-btn">Try it in your browser</button>
-    <button class="btn btn-primary btn-lg pink-btn">Download</button>
+    <button class="btn btn-primary btn-lg blue-btn"><i class="fa-solid fa-window-maximize"></i>᲼᲼Try it in your browser</button>
+    <button class="btn btn-lg pink-btn"><i class="fa-solid fa-download"></i>᲼᲼Download</button>
     <img class="hero-image" src="C:\Users\cohen\Documents\GitHub\avdan-os\desktop-1456x819.png" alt="desktop image with avdan os installed">
 </section>
 
@@ -56,14 +83,25 @@
 
 
 <section id="features-columns">
-    <h4>Perfomance</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam</p>
+    <div class="row">
+        <div class="col-lg-4 col-sm-12 features-col">
+            <i class="fa-solid fa-lightbulb icon-custom"></i>
+            <h4>Perfomance</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam</p>
+        </div>
 
-    <h4>Engagements</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam</p>
+        <div class="col-lg-4 col-sm-12 features-col">
+            <i class="fa-solid fa-thumbs-up icon-custom"></i>
+            <h4>Engagements</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam</p>
+        </div>
 
-    <h4>Flexibility</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam</p>
+        <div class="col-lg-4 col-sm-12 features-col">
+            <i class="fa-solid fa-face-grin-squint icon-custom"></i>
+            <h4>Flexibility</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam</p>
+        </div>
+    </div>
 </section>
 
 
