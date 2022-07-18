@@ -4,33 +4,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avdan OS</title>
-    <!-- BootStrap -->
+    <!-- BootStrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
+    <!-- BootStrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"></head>
 <body>
 
-<section class="hero section">
+<section id="hero-section">
     <h1>Your PC, even better</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquid?</p>
-    <button>Try it in your browser</button>
-    <button>Download</button>
-    <img src="C:\Users\cohen\Documents\GitHub\avdan-os\desktop-1456x819.png" alt="desktop image with avdan os installed">
+    <button class="btn btn-primary btn-lg blue-btn">Try it in your browser</button>
+    <button class="btn btn-primary btn-lg pink-btn">Download</button>
+    <img class="hero-image" src="C:\Users\cohen\Documents\GitHub\avdan-os\desktop-1456x819.png" alt="desktop image with avdan os installed">
 </section>
 
 
-<section class="features-tabs">
-    <h3>Higher Performance</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolor labore rerum numquam, animi magnam voluptas, porro earum cum odio laborum libero possimus provident inventore veritatis delectus, quibusdam! Necessitatibus praesentium, accusantium maxime nihil distinctio, sit aliquam hic vitae ducimus quidem unde aut magni voluptates ipsum voluptate mollitia assumenda animi quis?</p>
-    
-    <h3>Effective Security</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt non ducimus magni. Minima pariatur dolore sapiente quis hic, dolor ullam esse iure animi reprehenderit architecto cum assumenda placeat fugit praesentium ab perferendis at quo, dolorum doloremque aut! Totam fuga optio cumque maiores pariatur exercitationem ratione dolor culpa repellat laudantium.</p>
+<section id="features-tabs">
+    <div class="tabs-centered-menu">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="btn btn-lg tab-button active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="btn btn-lg tab-button" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="btn btn-lg tab-button" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+        </li>
+    </ul>
+    </div>
+      
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h3>Higher Performance</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolor labore rerum numquam, animi magnam voluptas, porro earum cum odio laborum libero possimus provident inventore veritatis delectus, quibusdam! Necessitatibus praesentium, accusantium maxime nihil distinctio, sit aliquam hic vitae ducimus quidem unde aut magni voluptates ipsum voluptate mollitia assumenda animi quis?</p>            
+        </div>
 
-    <h3>Excellent UI</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, voluptatum delectus suscipit mollitia. Esse iure cum aliquid, velit odio itaque, enim, quisquam rerum ex inventore, expedita rem sint voluptate fugit. Nobis incidunt cum perferendis nemo ratione reiciendis voluptate eos error odio repudiandae quaerat temporibus, aut aspernatur quas ad officiis!</p>
-</section>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <h3>Effective Security</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt non ducimus magni. Minima pariatur dolore sapiente quis hic, dolor ullam esse iure animi reprehenderit architecto cum assumenda placeat fugit praesentium ab perferendis at quo, dolorum doloremque aut! Totam fuga optio cumque maiores pariatur exercitationem ratione dolor culpa repellat laudantium.</p>        
+        </div>
+
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <h3>Excellent UI</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, voluptatum delectus suscipit mollitia. Esse iure cum aliquid, velit odio itaque, enim, quisquam rerum ex inventore, expedita rem sint voluptate fugit. Nobis incidunt cum perferendis nemo ratione reiciendis voluptate eos error odio repudiandae quaerat temporibus, aut aspernatur quas ad officiis!</p>        
+        </div>
+      </div>
+      
+   </section>
 
 
-<section class="features-columns">
+<section id="features-columns">
     <h4>Perfomance</h4>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam</p>
 
@@ -42,12 +67,13 @@
 </section>
 
 
-<section class="about">
+<section id="about">
     <div class="about-image">
         <img src="C:\Users\cohen\Documents\GitHub\avdan-os\01.jpg" alt="what can avdan os do for you?">
     </div>
 
-    <div class="about-description">
+    
+    <div id="about-description">
         <h2>What can Avdan OS do for you?</h2>
         <p>Conversions fall by 12% for every extra second a webpage takes to load. If you want people to engage with your brand and improve the performance of your campaigns, you have to speed things up. AMP offers a way for you to give users a faster experience everywhere -- on ads, landing pages or your entire website.</p>
         <button>Read More</button>

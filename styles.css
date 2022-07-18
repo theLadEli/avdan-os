@@ -1,0 +1,83 @@
+/* Global Styling */
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    color: black;
+    font-family: "montserrat", sans-serif;
+    font-weight: 800;
+
+}
+
+p {
+    font-family: "poppins", sans-serif;
+    color: gray;
+    font-size: 16px;
+}
+
+
+/* Hero Section */
+
+#hero-section {
+    padding: 7% 30%;
+}
+
+#hero-section.p {
+    margin-top: 5px;
+    padding: 3px 5%;
+}
+
+.blue-btn {
+    background-color: #4443ea;
+    border-radius: 0;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.06);
+    margin: 20px 3px;
+}
+
+.pink-btn {
+    background-color: #ce39dd;
+    border-color: #ce39dd;
+    border-radius: 0;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.06);
+    margin: 20px 3px;
+}
+
+.hero-image {
+    width: 750px;
+    border-radius: 10px;
+}
+
+
+/* Features Tabs */
+
+#features-tabs {
+    padding: 0 30% 5%;
+}
+
+.tab-button {
+    border-radius: 38px;
+    padding: 7px 75px 7px;
+    margin: 0 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.06);
+}
+
+.tab-button.active {
+    background-color: #4443ea;
+    color: white;
+    border-color: #4443ea;
+}
+
+.nav-tabs {
+    border: none;
+    margin-bottom: 50px;
+}
+
+.tab-content {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 40px;
+}
+
