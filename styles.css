@@ -48,7 +48,7 @@ p {
 /* Hero Section */
 
 #hero-section {
-    padding: 5% 30%;
+    padding: 5% 27%;
 }
 
 #hero-section.p {
@@ -75,7 +75,7 @@ p {
 /* Features Tabs */
 
 #features-tabs {
-    padding: 0 30% 5%;
+    padding: 0 27% 5%;
 }
 
 .tab-button {
@@ -157,4 +157,100 @@ p {
     line-height: 1;
     padding: 40px 0;
     margin: 0;
+}
+
+@media (max-width: 900px) {
+
+    h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+    .btn {
+        text-align: center  ;
+        display: block;
+        width: 87%;
+        margin: 32px 25px 23px;
+        padding: 15px 20px;
+    }
+
+    /* Hero Section */
+
+    #hero-section {
+        padding: 90px 10% 0 10%;
+    }
+
+
+    .hero-image {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    /* Features Tabs */
+
+    #features-tabs {
+        padding: 0 2% 0;
+    }
+
+    .tab-button {
+        text-align: center;
+        border-radius: 38px;
+        padding: 3.5px 30px 3.5px 20px;
+        margin: 30px 0 10px 10px;
+        box-shadow: 2.5px 2.5px 7.5px 2.5px rgba(0,0,0,0.06);
+    }
+    
+    .nav-tabs {
+        margin-bottom: 10px;
+    }
+
+    .tab-content {
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+
+    /* Features Column */
+
+    #features-columns {
+        padding: 60px 30px;
+    }
+
+    .col-lg-4 {
+        padding: 20px 0;
+    }
+
+
+    /* About Section */
+
+    .about-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-text {
+        padding: 30px 10px 0 10px;
+        text-align: center  ;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    /* Copyright */
+
+    #copyright {
+        margin-top: 50px;
+    }
+    
+    .copyright-txt {
+        padding: 20px 0;
+        font-size: 12px;
+    }
 }
