@@ -10,4 +10,4 @@ I'm also trying to build up my GitHub portfolio.
 
 ***
 
-You can see the live site here: https://theladeli.github.io/avdan-os/
+**You can see the live site here:** https://theladeli.github.io/avdan-os/
