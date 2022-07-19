@@ -7,3 +7,7 @@ A Front-end website made as part of my application to Avdan OS. They're an Open 
 So far, practically all the live sites i've made have been using wordpress, so i wanna contribute on a fully code project.
 
 I'm also trying to build up my GitHub portfolio.
+
+***
+
+You can see the live site here: https://theladeli.github.io/avdan-os/
